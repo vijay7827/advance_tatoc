@@ -1,0 +1,14 @@
+<suite name="Any Name">
+
+ <test name="Any Name">
+
+ <classes preserve-order="true" thread-count="1" parallel="false">
+ <class name="test.HomeTestClass"></class>
+ <class name="test.HoverTestClass"></class>
+ <class name="test.QueryGateTestClass"></class>
+ 
+ </classes>
+
+ </test>
+
+ </suite>

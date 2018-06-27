@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Any Name" duration-ms="8860" started-at="2018-06-27T08:36:13Z" finished-at="2018-06-27T08:36:22Z">
+    <groups>
+    </groups>
+    <test name="Any Name" duration-ms="8860" started-at="2018-06-27T08:36:13Z" finished-at="2018-06-27T08:36:22Z">
+      <class name="test.HoverTestClass">
+        <test-method status="PASS" signature="initVars1()[pri:0, instance:test.HoverTestClass@14acaea5]" name="initVars1" is-config="true" duration-ms="12" started-at="2018-06-27T14:06:19Z" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initVars1 -->
+        <test-method status="PASS" signature="hover_element()[pri:0, instance:test.HoverTestClass@14acaea5]" name="hover_element" duration-ms="75" started-at="2018-06-27T14:06:19Z" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover_element -->
+        <test-method status="PASS" signature="click_gonext()[pri:0, instance:test.HoverTestClass@14acaea5]" name="click_gonext" duration-ms="149" started-at="2018-06-27T14:06:19Z" depends-on-methods="test.HoverTestClass.hover_element" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_gonext -->
+      </class> <!-- test.HoverTestClass -->
+      <class name="test.HomeTestClass">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.HomeTestClass@6767c1fc]" name="openBrowser" is-config="true" duration-ms="5041" started-at="2018-06-27T14:06:13Z" finished-at="2018-06-27T14:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initVars()[pri:0, instance:test.HomeTestClass@6767c1fc]" name="initVars" is-config="true" duration-ms="7" started-at="2018-06-27T14:06:18Z" finished-at="2018-06-27T14:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initVars -->
+        <test-method status="PASS" signature="Step01_Launch_Homepage()[pri:0, instance:test.HomeTestClass@6767c1fc]" name="Step01_Launch_Homepage" duration-ms="451" started-at="2018-06-27T14:06:18Z" finished-at="2018-06-27T14:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step01_Launch_Homepage -->
+        <test-method status="PASS" signature="STEP02_Click_Link()[pri:0, instance:test.HomeTestClass@6767c1fc]" name="STEP02_Click_Link" duration-ms="202" started-at="2018-06-27T14:06:18Z" depends-on-methods="test.HomeTestClass.Step01_Launch_Homepage" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- STEP02_Click_Link -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.HomeTestClass@6767c1fc]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-06-27T14:06:19Z" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.HomeTestClass -->
+      <class name="test.QueryGateTestClass">
+        <test-method status="PASS" signature="initVars3()[pri:0, instance:test.QueryGateTestClass@46d56d67]" name="initVars3" is-config="true" duration-ms="6" started-at="2018-06-27T14:06:19Z" finished-at="2018-06-27T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initVars3 -->
+        <test-method status="PASS" signature="connect_database_test()[pri:0, instance:test.QueryGateTestClass@46d56d67]" name="connect_database_test" duration-ms="2896" started-at="2018-06-27T14:06:19Z" finished-at="2018-06-27T14:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect_database_test -->
+      </class> <!-- test.QueryGateTestClass -->
+    </test> <!-- Any Name -->
+  </suite> <!-- Any Name -->
+</testng-results>
