@@ -6,6 +6,8 @@
  <class name="test.HomeTestClass"></class>
  <class name="test.HoverTestClass"></class>
  <class name="test.QueryGateTestClass"></class>
+ <class name="test.RestTestClass"></class>
+  <class name="test.FileReadTestClass"></class>
  
  </classes>
 

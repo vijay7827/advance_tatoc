@@ -1,4 +1,9 @@
+test\QueryGateTestClass.class
 test\HomeTestClass.class
 test\HoverTestClass.class
+test\RestTestClass.class
+actions\QueryGatePageAction.class
+actions\RestAction.class
 actions\HomePageActions.class
+test\WebDriverCommon.class
 actions\HoverMenuPageAction.class

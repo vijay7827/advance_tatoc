@@ -3,24 +3,34 @@
 <suite name="Failed suite [Any Name]">
   <test name="Any Name(failed)">
     <classes>
-      <class name="test.HomeTestClass">
+      <class name="test.RestTestClass">
+        <methods>
+          <include name="initVars"/>
+        </methods>
+      </class> <!-- test.RestTestClass -->
+      <class name="test.HoverTestClass">
         <methods>
           <include name="openBrowser"/>
+          <include name="initVars1"/>
+        </methods>
+      </class> <!-- test.HoverTestClass -->
+      <class name="test.FileReadTestClass">
+        <methods>
+          <include name="read"/>
+          <include name="initVars"/>
+        </methods>
+      </class> <!-- test.FileReadTestClass -->
+      <class name="test.QueryGateTestClass">
+        <methods>
+          <include name="initVars3"/>
+        </methods>
+      </class> <!-- test.QueryGateTestClass -->
+      <class name="test.HomeTestClass">
+        <methods>
           <include name="initVars"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- test.HomeTestClass -->
-      <class name="test.HoverTestClass">
-        <methods>
-          <include name="initVars1"/>
-        </methods>
-      </class> <!-- test.HoverTestClass -->
-      <class name="test.QueryGateTestClass">
-        <methods>
-          <include name="connect_database_test"/>
-          <include name="initVars3"/>
-        </methods>
-      </class> <!-- test.QueryGateTestClass -->
     </classes>
   </test> <!-- Any Name(failed) -->
 </suite> <!-- Failed suite [Any Name] -->
