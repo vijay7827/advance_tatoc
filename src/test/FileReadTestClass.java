@@ -13,7 +13,7 @@ public class FileReadTestClass extends WebDriverCommon {
 	@BeforeClass
 	public void initVars() throws InterruptedException {
 		Thread.sleep(100);
-		System.out.println("8888888" + driver.getCurrentUrl());
+		System.out.println("888888899" + driver.getCurrentUrl());
 		FilePage = new FileReadAction(driver);
 	}
 	@Test
