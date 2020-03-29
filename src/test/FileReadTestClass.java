@@ -10,10 +10,14 @@ import actions.FileReadAction;;
 public class FileReadTestClass extends WebDriverCommon {
 	FileReadAction FilePage;
 
+	System.out.println();
 	@BeforeClass
 	public void initVars() throws InterruptedException {
 		Thread.sleep(100);
+
 		System.out.println("888888899" + driver.getCurrentUrl());
+
+
 		FilePage = new FileReadAction(driver);
 	}
 	@Test
